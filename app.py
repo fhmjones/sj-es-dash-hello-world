@@ -10,7 +10,7 @@ app = dash.Dash(
     url_base_pathname=environ.get('JUPYTERHUB_SERVICE_PREFIX', '/')
 )
 
-app.layout = html.Div("Hello world.")
+app.layout = html.Div("FJ's derived hello world.")
 
 if __name__ == '__main__':
     app.run_server()
